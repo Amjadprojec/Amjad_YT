@@ -1,5 +1,5 @@
 <?php 
-const class_version = "1.0.1";
+const class_version = "1.0.3";
 function cetak($content){
   echo h.'[+] '.k.$content.n;
 }
