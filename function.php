@@ -46,3 +46,5 @@ function msg($str, $j = 10){
     }
     print "                           ".r;
 }
+
+function TimeZone(){$rpi = json_decode(file_get_contents("http://ip-api.com/json"),1);if($rpi){$tz = $rpi["timezone"];date_default_timezone_set($tz);return $rpi["country"];}else{date_default_timezone_set("UTC");return "UTC";}}  
