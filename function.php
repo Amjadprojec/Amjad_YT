@@ -1,4 +1,5 @@
 <?php 
+const fc_version = '1.0.1';
 function cetak($content){
   echo h.'[+] '.k.$content.n;
 }
