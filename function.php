@@ -1,6 +1,6 @@
 <?php 
 function cetak($content){
-  echo k.'[+] '.h.$content."\n";
+  echo h.'[+] '.k.$content.n;
 }
 function Curl($u, $h = 0, $p = 0,$mode = 0) {
 	while(true){
