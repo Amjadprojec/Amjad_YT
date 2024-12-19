@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #07fcf4;
+  font-family: Sans-Serif;
+}
+
+.navbar{
+  background-color:#5dd6f9 ;
+  margin: 0;
+  padding: 20px 30px;
+}
+.logo{
+ font-size: 14pt;
+ font-weight: bold;
+ text-decoration: none;
+ color: white;
+}
+
+.container{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.tombol{
+ display: none;
+ color: white;
+ font-size: 14pt; 
+}
+.tombol:hover{
+ cursor: pointer;
+}
+.menu{
+ margin: 0;
+ display: flex;
+ list-style: none;
+ padding: 0; 
+}
+
+.menu li{
+ padding-left: 0;
+ margin-right: 10px;
+}
+.menu li a{
+ padding:10px;
+ color: white;
+ text-decoration: none;
+ display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+ .menu {
+ display: none;
+ }
+ 
+ .menu.aktif{
+ display:inline-block;
+ position: absolute;
+ top: 64px;
+ background: white;
+ padding: 10px 20px;
+ right: 0;
+ left: 0;
+ }
+ 
+ .menu.aktif li a{
+ padding: 10px;
+ display: inline-block !important;
+ color: black;
+ }
+ 
+ .tombol {
+ display: block;
+ }
+}
+
+.sambutan{
+  display: flex;
+  justify-content: center;
+}
+
+.content{
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 10px auto;
+}
+.ft{
+  height: 50%;
+  width: 100%;
+}
+.garis{
+  background-color: black;
+  height: 2px;
+  width: 100%;
+}
